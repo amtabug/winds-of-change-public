@@ -1,0 +1,34 @@
+{
+  "name": "winds-of-change",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/amtabug/winds-of-change-public#readme",
+  "bugs": {
+    "url": "https://github.com/amtabug/winds-of-change-public/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amtabug/winds-of-change-public.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "prelint": "tsc --noEmit -p ./tsconfig.json",
+    "lint": "eslint --ext .ts,.js --max-warnings=0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.5.0",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.2"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "ajv": "^8.18.0",
+    "dotenv": "^17.3.1"
+  }
+}
